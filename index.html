@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#006633">
+    <meta name="description" content="Pondok Pesantren Al-Mubarokah: pendidikan Islam, pembinaan karakter, dan lingkungan tumbuh bagi generasi berilmu.">
+    <meta name="referrer" content="strict-origin-when-cross-origin">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data:; frame-src https://www.google.com; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests">
+    <title>Pondok Pesantren Al-Mubarokah</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <a class="skip-link" href="#app">Langsung ke konten</a>
+    <header class="site-header">
+        <div class="header-inner">
+            <a class="brand" href="#beranda" aria-label="Pondok Pesantren Al-Mubarokah, Beranda">
+                <img class="brand-mark" src="galeri/logo%20pondok%20transparan%20HD.png" alt="">
+                <span class="brand-name">Pondok Pesantren<strong>Al-Mubarokah</strong><small>Karangmangu • Susukanlebak • Cirebon</small></span>
+            </a>
+            <button class="menu-toggle" type="button" aria-label="Buka menu" aria-expanded="false" aria-controls="site-nav" aria-describedby="menu-toggle-hint">
+                <span></span><span></span><span></span>
+            </button>
+            <span class="menu-toggle-hint" id="menu-toggle-hint">Klik untuk membuka menu</span>
+        </div>
+    </header>
+    <button class="nav-backdrop" type="button" aria-label="Tutup menu navigasi" tabindex="-1"></button>
+    <nav class="site-nav" id="site-nav" aria-label="Navigasi utama" aria-hidden="true">
+        <div class="nav-panel-header">
+            <span class="nav-panel-title">Menu Navigasi</span>
+            <button class="nav-close" type="button" aria-label="Tutup menu"><span aria-hidden="true">×</span></button>
+        </div>
+        <a class="nav-link" href="#beranda" data-route="beranda">Beranda</a>
+        <div class="nav-group">
+            <button class="nav-trigger" type="button" aria-expanded="false">Profil <span aria-hidden="true">⌄</span></button>
+            <div class="dropdown-menu">
+                <a href="#profil-sejarah" data-route="profil-sejarah">Sejarah</a>
+                <a href="#profil-visi-misi" data-route="profil-visi-misi">Visi dan Misi</a>
+                <a href="#profil-pimpinan" data-route="profil-pimpinan">Pengasuh Pondok Putra dan Putri</a>
+            </div>
+        </div>
+        <div class="nav-group">
+            <button class="nav-trigger" type="button" aria-expanded="false">Jenjang Pendidikan <span aria-hidden="true">⌄</span></button>
+            <div class="dropdown-menu">
+                <a href="#sekolah-mts-smp" data-route="sekolah-mts-smp">Madrasah Tsanawiyah Al-Hidayah (MTs)</a>
+                <a href="#sekolah-ma-sma" data-route="sekolah-ma-sma">Madrasah Aliyah Al-Mubarokah (Ma)</a>
+            </div>
+        </div>
+        <div class="nav-group">
+            <button class="nav-trigger" type="button" aria-expanded="false">Program <span aria-hidden="true">⌄</span></button>
+            <div class="dropdown-menu">
+                <a href="#program-unggulan" data-route="program-unggulan">Program Unggulan</a>
+                <a href="#program-ekstrakurikuler" data-route="program-ekstrakurikuler">Program Ekstrakurikuler</a>
+            </div>
+        </div>
+        <a class="nav-link" href="#prestasi" data-route="prestasi">Prestasi</a>
+        <a class="nav-link" href="#fasilitas" data-route="fasilitas">Fasilitas</a>
+        <div class="nav-group">
+            <button class="nav-trigger" type="button" aria-expanded="false">Informasi <span aria-hidden="true">⌄</span></button>
+            <div class="dropdown-menu">
+                <a href="#jadwal-harian-santri" data-route="jadwal-harian-santri">Jadwal Harian Santri</a>
+                <a href="#hubungi-kami" data-route="hubungi-kami">Hubungi Kami</a>
+            </div>
+        </div>
+        <a class="nav-link nav-contact" href="#hubungi-kami" data-route="hubungi-kami">Kontak <span aria-hidden="true">↗</span></a>
+        <a class="nav-link nav-admission" href="#pendaftaran" data-route="pendaftaran">Pendaftaran</a>
+    </nav>
+
+    <main id="app" tabindex="-1" aria-live="polite"></main>
+
+    <footer class="site-footer">
+        <div class="footer-main">
+            <div class="footer-brand-block">
+                <a class="brand brand-footer" href="#beranda">
+                    <img class="brand-mark" src="galeri/logo pondok transparan HD.png" alt="">
+                    <span class="brand-name">Pondok Pesantren<strong>Al-Mubarokah</strong><small>Karangmangu • Susukanlebak • Cirebon</small></span>
+                </a>
+                <p>Membentuk generasi yang mendalami kitab kuning, berilmu, berakhlak mulia, mandiri, dan bermanfaat.</p>
+                <div class="social-links" aria-label="Media sosial"></div>
+            </div>
+            <div class="footer-address">
+                <h2>Alamat &amp; Lokasi</h2>
+                <p>Jl. Mengger Desa Karangmangu Kecamatan Susukanlebak Kabupaten Cirebon Prov. jawa Barat Kode Pos 45185</p>
+                <a class="map-link" href="https://maps.app.goo.gl/jg5DKjZZM9uCaCyq5?g_st=aw" target="_blank" rel="noopener noreferrer">Cari di Google Maps <span aria-hidden="true">↗</span></a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <span>© <span id="copyright-year">2026</span> Pondok Pesantren Al-Mubarokah. Hak cipta dilindungi.</span>
+            <span>Ilmu · Adab · Pengabdian</span>
+        </div>
+    </footer>
+
+    <div class="whatsapp-widget">
+        <div class="whatsapp-menu" id="whatsapp-menu" role="menu" aria-label="Pilihan kontak WhatsApp">
+            <a class="whatsapp-option" role="menuitem" href="https://wa.me/6281320515029" target="_blank" rel="noopener noreferrer">
+                <svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16.02 3.2A12.7 12.7 0 0 0 5.15 22.46L3.4 28.8l6.5-1.7a12.75 12.75 0 1 0 6.12-23.9Zm0 23.2a10.4 10.4 0 0 1-5.3-1.45l-.38-.23-3.86 1.01 1.03-3.76-.25-.39a10.47 10.47 0 1 1 8.76 4.82Z"/></svg>
+                <span>Hubungi Umi Habibah</span>
+            </a>
+            <a class="whatsapp-option" role="menuitem" href="https://wa.me/6282219509435" target="_blank" rel="noopener noreferrer">
+                <svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16.02 3.2A12.7 12.7 0 0 0 5.15 22.46L3.4 28.8l6.5-1.7a12.75 12.75 0 1 0 6.12-23.9Zm0 23.2a10.4 10.4 0 0 1-5.3-1.45l-.38-.23-3.86 1.01 1.03-3.76-.25-.39a10.47 10.47 0 1 1 8.76 4.82Z"/></svg>
+                <span>Hubungi Umi Fitriana</span>
+            </a>
+        </div>
+        <button class="whatsapp-float" type="button" aria-label="Pilih kontak WhatsApp" aria-expanded="false" aria-controls="whatsapp-menu">
+            <svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16.02 3.2A12.7 12.7 0 0 0 5.15 22.46L3.4 28.8l6.5-1.7a12.75 12.75 0 1 0 6.12-23.9Zm0 23.2a10.4 10.4 0 0 1-5.3-1.45l-.38-.23-3.86 1.01 1.03-3.76-.25-.39a10.47 10.47 0 1 1 8.76 4.82Zm5.74-7.84c-.31-.16-1.83-.9-2.12-1-.28-.1-.49-.16-.7.16-.2.31-.8 1-1 1.2-.18.21-.36.24-.67.08-.31-.15-1.3-.48-2.47-1.5-.91-.81-1.52-1.82-1.7-2.13-.18-.3-.02-.47.14-.63.14-.14.31-.36.46-.54.16-.18.21-.31.31-.52.1-.2.06-.39-.02-.54-.08-.16-.7-1.68-.96-2.3-.25-.6-.5-.52-.69-.53l-.59-.01c-.2 0-.54.08-.82.39-.28.3-1.08 1.05-1.08 2.56 0 1.52 1.1 2.98 1.25 3.19.15.2 2.17 3.32 5.26 4.65.74.32 1.31.51 1.76.65.74.23 1.42.2 1.95.12.6-.09 1.83-.75 2.09-1.48.26-.73.26-1.36.18-1.49-.07-.13-.28-.2-.59-.36Z"/></svg>
+        </button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
