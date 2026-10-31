@@ -59,6 +59,12 @@ const pages = {
         lead: "Program pembinaan untuk memperkuat ilmu keislaman, kemampuan berbahasa, dan karakter santri.",
         sections: [{ title: "Pembinaan utama", text: "Program unggulan pesantren berfokus pada pendalaman ilmu, Tahfidz Al-Qur'an dan pembiasaan baik dalam keseharian santri.", list: ["Tahsin, Tahfidz Al-Qur'an & Hadits.", "Pidato Bahasa Indonesia, Arab & Inggris.", "Qiroatul Kutubissalafiyah/Kitab Kuning.", "Praktek Kerja Lapangan (PKL)."] }, { title: "Informasi program", text: "Materi, jadwal, dan pelaksanaan program dapat disesuaikan. Silakan hubungi pengelola untuk mendapatkan informasi terbaru." }]
     },
+    "tahsin-tahfidz-quran": {
+        label: "Program · Tahsin & Tahfidz Qur'an",
+        title: "Tahsin & Tahfidz Qur'an",
+        lead: "Pembinaan Al-Qur'an yang mengajak santri memperbaiki bacaan sekaligus menghafal ayat dengan tertib dan berkelanjutan.",
+        sections: [{ title: "Tahsin: memperbaiki bacaan", text: "Tahsin membantu santri membaca Al-Qur'an dengan lebih baik melalui bimbingan pelafalan huruf, makhraj, dan penerapan tajwid." }, { title: "Tahfidz: menghafal dan menjaga hafalan", text: "Tahfidz membimbing santri menghafal ayat-ayat Al-Qur'an secara bertahap, disertai pengulangan atau murojaah untuk membantu menjaga hafalan." }, { title: "Pembinaan santri", text: "Pembelajaran disesuaikan dengan kemampuan masing-masing santri. Jadwal, target hafalan, dan teknis bimbingan dapat dikonfirmasi kepada pengelola pesantren." }]
+    },
     "program-ekstrakurikuler": {
         label: "Program · Program Ekstrakurikuler",
         title: "Program Ekstrakurikuler",
