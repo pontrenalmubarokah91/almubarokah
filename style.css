@@ -164,7 +164,7 @@ ebrow { color: var(--gold); }
 .program-slide { position: absolute; inset: 0; background-position: center; background-repeat: no-repeat; background-size: cover; }
 .program-slide-one { background-image: url("program/program%20unggulan%201.jpeg"); animation: hero-slide-one 10s linear infinite; }
 .program-slide-two { background-image: url("program/program%20unggulan%202.jpeg"); animation: hero-slide-two 10s linear infinite; }
-.program-banner::after { z-index: 1; }
+.program-banner::after { display: none; }
 .page-banner-inner { position: relative; z-index: 1; width: min(1180px, 100%); margin: auto; }
 .breadcrumbs { display: flex; align-items: center; gap: 9px; color: #c5d7c8; font-size: 10px; }
 .breadcrumbs a:hover { color: var(--gold); }
@@ -468,7 +468,7 @@ a.enrollment-contact-card:hover { transform: translateY(-2px); border-color: var
     background-size: contain;
   }
   .program-banner { min-height: clamp(25rem, 105vw, 32rem); }
-  .program-slide { background-size: contain; }
+  .program-slide { background-size: cover; }
   .achievement-card figcaption { padding: 1rem; }
   .facility-group { padding: 1rem; }
   .enrollment-section { min-width: 0; padding: 1rem; }
