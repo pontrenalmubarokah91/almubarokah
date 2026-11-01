@@ -412,14 +412,14 @@ function renderFacilities() {
                 { name: "Ruangan Sekolah MTs", image: "ruangan-sekolah-mts" },
                 { name: "Masjid Depan", image: "masjid-depan" },
                 { name: "Masjid Dalam", image: "masjid-dalam" },
-                { name: "Saung Tahfidz", image: "saung-tahfidz" },
+                { name: "Saung Tahfidz", image: "saung-tahfidz", photo: "fasilitas/Saung%20Tahfidz.jpeg" },
                 { name: "Kantin Pondok", image: "kantin-pondok" },
                 { name: "Kamar Mandi (Putra)", image: "kamar-mandi-putra" },
                 { name: "Perpustakaan", image: "perpustakaan" },
                 { name: "Kamar 1 (Putra)", image: "kamar-1-putra" },
                 { name: "Kamar 2 (Putra)", image: "kamar-2-putra" },
                 { name: "Kamar 3 (Putra)", image: "kamar-3-putra" },
-                { name: "Kamar 4 (Putra)", image: "kamar-4-putra" },
+                { name: "Kamar 4 (Putra)", image: "kamar-4-putra", photo: "fasilitas/k.atas%20(Putra).jpeg" },
                 { name: "Jemuran Santri Putra", image: "jemuran-santri-putra" },
                 { name: "Kamar Ustadz", image: "kamar-ustadz" }
             ]
