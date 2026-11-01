@@ -428,8 +428,8 @@ function renderFacilities() {
             title: "Fasilitas Pondok Putri",
             items: [
                 { name: "Gapura Pondok Putri", image: "gapura-pondok-putri", photo: "fasilitas/gapura%20putri.jpeg" },
-                { name: "Aula Besar (Putri)", image: "aula-besar-putri" },
-                { name: "Aula Bawah (Putri)", image: "aula-bawah-putri" },
+                { name: "Aula Besar", image: "aula-besar-putri" },
+                { name: "Aula Bawah", image: "aula-bawah-putri" },
                 { name: "Jemuran Santri Putri", image: "jemuran-santri-putri" },
                 { name: "Kamar 1 (Putri)", image: "kamar-1-putri" },
                 { name: "Kamar 2 (Putri)", image: "kamar-2-putri" },
