@@ -153,7 +153,7 @@ ebrow { color: var(--gold); }
 .feature-row p { margin: 5px 0 0; font-size: 11px; }
 .page-banner { position: relative; overflow: hidden; padding: 64px 26px 61px; background: var(--green-deep); color: white; }
 .page-banner::after { position: absolute; top: -210px; right: 8%; width: 420px; height: 420px; border: 1px solid rgba(249,168,37,.3); border-radius: 50%; content: ""; }
-.program-banner { aspect-ratio: 4 / 3; background: var(--green-deep); }
+.program-banner { min-height: clamp(28rem, 45vw, 38rem); display: flex; align-items: center; background: var(--green-deep); }
 .program-banner::before { position: absolute; z-index: 1; inset: 0; background: rgba(0,0,0,.48); content: ""; }
 .education-banner { aspect-ratio: 16 / 9; background-position: center; background-repeat: no-repeat; background-size: contain; }
 .education-banner::before { position: absolute; z-index: 0; inset: 0; background: rgba(0,0,0,.48); content: ""; }
@@ -161,7 +161,7 @@ ebrow { color: var(--gold); }
 .education-banner-mts { aspect-ratio: 720 / 401; background-image: url("jenjang/mts%20alhidayah.jpeg"); }
 .education-banner-ma { aspect-ratio: 719 / 546; background-image: url("jenjang/Madrasah%20Aliyah.jpeg"); }
 .program-slideshow { position: absolute; z-index: 0; inset: 0; overflow: hidden; }
-.program-slide { position: absolute; inset: 0; background-position: center; background-repeat: no-repeat; background-size: contain; }
+.program-slide { position: absolute; inset: 0; background-position: center; background-repeat: no-repeat; background-size: cover; }
 .program-slide-one { background-image: url("program/program%20unggulan%201.jpeg"); animation: hero-slide-one 10s linear infinite; }
 .program-slide-two { background-image: url("program/program%20unggulan%202.jpeg"); animation: hero-slide-two 10s linear infinite; }
 .program-banner::after { z-index: 1; }
@@ -467,6 +467,8 @@ a.enrollment-contact-card:hover { transform: translateY(-2px); border-color: var
     background-position: center;
     background-size: contain;
   }
+  .program-banner { min-height: clamp(25rem, 105vw, 32rem); }
+  .program-slide { background-size: contain; }
   .achievement-card figcaption { padding: 1rem; }
   .facility-group { padding: 1rem; }
   .enrollment-section { min-width: 0; padding: 1rem; }
